@@ -24,7 +24,7 @@ LD_LIBRARY_PATH=/opt/root/lib
     cd /root/ && bash ./Miniconda2-latest-Linux-x86_64.sh -b -p /opt/anaconda/   
 
     export PATH=/opt/anaconda/bin:${PATH} 
-    pip install pysam
+    pip install pysam==0.7.5
     pip install numpy
     pip install matplotlib
     pip install matplotlib-venn
