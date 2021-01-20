@@ -28,3 +28,4 @@ LD_LIBRARY_PATH=/opt/root/lib
     pip install numpy
     pip install matplotlib
     pip install matplotlib-venn
+    pip install pybedtools
