@@ -30,6 +30,10 @@ LD_LIBRARY_PATH=/opt/root/lib
     pip install matplotlib-venn
     pip install pybedtools
     
+    conda config --add channels defaults
+    conda config --add channels conda-forge
+    conda config --add channels bioconda
+    
     #VEP
     conda install -c bioconda ensembl-vep
     conda install -c bioconda/label/cf201901 ensembl-vep
