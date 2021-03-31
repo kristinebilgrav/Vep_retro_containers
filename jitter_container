@@ -36,4 +36,4 @@ LD_LIBRARY_PATH=/opt/root/lib
     conda config --add channels bioconda
     
     cd /bin/ && wget https://github.com/elzbth/jitterbug.git
-    cd /bin/jitterbug
+
